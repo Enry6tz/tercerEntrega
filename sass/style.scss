@@ -1,27 +1,15 @@
 //base
+@import './base/base';
 @import './base/variables';
-@import './base/list';
-@import './base/colores';
-@import './base/general';
+
+
+
+
+
 //componentes
 @import './components/header';
 @import './components/footer';
 @import './components/card';
-
-.img__logo{
-    width: 50%
-}
-
-
-*{
-    margin: 0;
-    padding: 0;
-
-
-}
-body{
-
-    background-image: url("../assets/backgraund.jpg");
-    font-family: 'Amatic SC', cursive;
-    
-}
+@import './components/reset';
+@import './components/btn';
+@import './components/letra';
