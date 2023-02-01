@@ -1,3 +1,40 @@
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
+.bg__custom {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  padding-top: 20px;
+}
+
+.card__custom {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 2px solid;
+  border-color: blueviolet;
+  border-radius: 10px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.img__logo {
+  width: 50%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../assets/backgraund.jpg");
+  font-family: "Amatic SC", cursive;
+}
 
 /*# sourceMappingURL=style.css.map */
