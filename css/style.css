@@ -1,0 +1,81 @@
+/*font-family: 'Amatic SC', cursive;
+font-family: 'La Belle Aurore', cursive;
+*/
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*backgraud*/
+body{
+
+    background-image: url("../assets/backgraund.jpg");
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+
+/*main*/
+.img__logo{
+    width: 50%
+}
+
+/*productos*/
+
+.letter__custom{
+    text-align: center;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    font-family: 'La Belle Aurore', cursive;
+}
+.btn__custom {
+    width: 10rem;
+    background-color: rgb(25, 14, 34);
+    text-align: center;
+    border-radius: 15px;
+    border:2px;
+    font-size: 17px;
+    
+
+}
+/*retoque de cards*/
+
+.card__custom{
+    background-color: rgb(0,0,0,0.1);
+    border: 2px solid;
+    border-color: blueviolet;
+    border-radius: 10px;
+    
+}
+
+.card {
+    margin-top: 20px;
+}
+
+/*footer*/
+.footer{
+    padding-top: 20px;
+}
+.bg__custom{
+    background-color:rgb(0,0,0,0.2);
+}
+
+
+/*pages*/
+
+.titles2__ofertas{
+    margin-top: 50px;
+    background-color: rgb(0,0,0,0.1);
+    text-align: center;
+
+    border-radius: 10px;
+}
