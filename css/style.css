@@ -1,5 +1,6 @@
 .img__logo {
   width: 50%;
+  padding-top: 2rem;
 }
 
 ul li {
@@ -25,26 +26,39 @@ body {
 }
 
 header {
-  font-size: 25px;
+  font-size: 1.6rem;
+  background-color: rgba(180, 22, 148, 0.232);
+  width: 100%;
 }
 
 .footer {
-  background-color: rgba(0, 0, 0, 0.12);
-}
-
-.footer {
-  padding-top: 20px;
-}
-
-.card__custom {
-  background-color: rgba(0, 0, 0, 0.12);
-  border: 2px solid;
-  border-color: rgb(28, 15, 38);
-  border-radius: 10px;
+  background-color: rgba(180, 22, 148, 0.033);
+  width: 100%;
+  border: 6px solid transparent;
 }
 
 .card {
-  margin-top: 20px;
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  backdrop-filter: blur(1rem);
+  box-shadow: 1.3rem 1.3rem 1.3rem rgba(41, 34, 38, 0.362);
+}
+
+.cb1 {
+  background-color: rgba(180, 22, 148, 0.133);
+}
+
+.card-number {
+  color: rgba(235, 212, 212, 0.284);
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.card-comprar {
+  display: flex;
+  flex-direction: column;
 }
 
 * {
@@ -61,6 +75,9 @@ ul li {
 body {
   background-image: url("../assets/backgraund.jpg");
   font-family: "Amatic SC", cursive;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 .btn__custom {
@@ -70,6 +87,7 @@ body {
   border-radius: 15px;
   border: 2px;
   font-size: 17px;
+  margin-bottom: 1rem;
 }
 
 .letter__custom {
