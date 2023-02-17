@@ -12,6 +12,7 @@ ul li {
 body {
   background-image: url("../assets/backgraund.jpg");
   font-family: "Amatic SC", cursive;
+  font-size: 20px;
 }
 
 .titles2__ofertas {
