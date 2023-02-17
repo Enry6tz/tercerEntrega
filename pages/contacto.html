@@ -44,11 +44,64 @@
         </div>
       </nav>
     </header>
-    <main class="main__contacto titles2__ofertas">
-        <h1 >Quienes somos</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, voluptatum pariatur! Animi voluptate molestiae vel quis asperiores nisi. Optio eos ratione fuga sed error incidunt laborum, facere temporibus provident praesentium aliquam odio autem ducimus ipsum magni nulla perferendis aliquid perspiciatis dolor ex quod reiciendis cupiditate vero? Modi ipsam quo, earum doloribus ipsum odio accusamus numquam soluta vitae saepe maxime commodi aspernatur asperiores officiis possimus fuga tenetur hic libero voluptates praesentium voluptatibus rem? Ad temporibus, ea voluptate accusamus assumenda tempore accusantium enim labore delectus sunt itaque eum ducimus obcaecati soluta nisi illum deserunt cum magni qui unde dignissimos magnam. Ipsa eos earum perferendis non odio sed a est esse. Nesciunt quae omnis asperiores soluta consectetur reiciendis nostrum illo, blanditiis consequuntur eius dignissimos mollitia iste inventore corporis laborum. Ullam consectetur in nihil pariatur aspernatur minus, reprehenderit laborum modi explicabo, odit doloremque! Consequuntur.</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/j_yPctht3c0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </main>
+  <main class="mainContacto">
+    <h1  >Sobre Nosotros</h1>
+    <div class="container-fluid">
+        <div class="row ">
+          <div class="col col-6 ">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, voluptatum pariatur! Animi voluptate molestiae vel quis asperiores nisi. Optio eos ratione fuga sed error incidunt laborum, facere temporibus provident praesentium aliquam odio autem ducimus ipsum magni nulla perferendis aliquid perspiciatis dolor ex quod reiciendis cupiditate vero? Modi ipsam quo, earum doloribus ipsum odio accusamus numquam soluta vitae saepe maxime commodi aspernatur asperiores officiis possimus fuga tenetur hic libero voluptates praesentium voluptatibus rem? Ad temporibus, ea voluptate accusamus assumenda tempore accusantium enim labore delectus sunt itaque eum ducimus obcaecati soluta nisi illum deserunt cum magni qui unde dignissimos magnam. Ipsa eos earum perferendis non odio sed a est esse. Nesciunt quae omnis asperiores soluta consectetur reiciendis nostrum illo, blanditiis consequuntur eius dignissimos mollitia iste inventore corporis laborum. Ullam consectetur in nihil pariatur aspernatur minus, reprehenderit laborum modi explicabo, odit doloremque! Consequuntur.</p>
+          </div>
+          <div class="col col-6 ">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/j_yPctht3c0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+  </main>
+  <section class="formContacto">
+    <section class="d-flex justify-content-center align-items-center">
+      <div class="card w col-xs-12 col-sm-6 col-md-6 col-lg-4   p-4"> 
+          <div class="mb-4 d-flex justify-content-start align-items-center">
+              <h4><i class="bi bi-chat-left-quote"></i> &nbsp; Contacto</h4>
+          </div>
+          <div class="mb-1">
+              <form id = "contacto" >
+                  <div class="mb-4 d-flex justify-content-between"> 
+                      <div>
+                          <label for="nombre"> <i class="bi bi-person-fill"></i> Nombre</label>
+                          <input type="text" class="form-control" name="nombre" id="nombre" placeholder= "ej: Gabriel" required>
+                          <div class="nombre text-danger "></div>
+                      </div>
+                      <div >
+                          <label for="apellido"> <i class="bi bi-person-bounding-box"></i> Apellido</label>
+                          <input type="text" class="form-control" name="apellido" id="apellido" placeholder= "ej: Pacheco" required>
+                          <div class="apellido text-danger"></div>
+                      </div>
+                  </div>
+                  <div class="mb-4">
+                      <label for="correo"><i class="bi bi-envelope-fill"></i> Correo</label>
+                      <input type="email" class="form-control" name="correo" id="correo" placeholder= "ej: gpmcheco@mail.com" required>
+                      <div class="correo text-danger"></div>
+                      
+                  </div> 
+                  <div class="mb-4">
+                      <label for="sexo"><i class="bi bi-gender-ambiguous"></i> Sexo: </label>
+                      <input type="radio" class="form-check-input"  name="sexo"  value="masculino" > Masculino
+                      <input type="radio" class="form-check-input" name="sexo"  value="femenino" > Femenino
+                      <div class="sexo text-danger"></div>
+                  </div>  
+                  <div class="mb-4">
+                      <label for="mensaje"> <i class="bi bi-chat-right-dots-fill" required></i> Mensaje</label>
+                      <textarea name="mensaje" id="mensaje" class="form-control" placeholder="ej: hola"></textarea>
+                      <div class="mensaje text-danger"></div>
+                  </div> 
+                  
+                  <div class="mb-2">
+                      <button id ="botton" class="col-12 btn btn-primary d-flex justify-content-between ">
+                          <span>Enviar </span><i id="icono" class="bi bi-cursor-fill "></i>
+                      </button>
+                </div>
+              </form>
+            </div>
+        </div>
+    </section>
   <!--footer-->
   <footer class="footer">
     <div class="container-fluid">
